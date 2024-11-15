@@ -8,7 +8,7 @@ class WebDriverFactory:
     """Factory class for creating WebDriver instances"""
     
     @staticmethod
-    def create_driver(browser_type=None):
+    def create_driver(browser_type="chrome"):
         """
         Creates a WebDriver instance based on available browsers
         Args:
