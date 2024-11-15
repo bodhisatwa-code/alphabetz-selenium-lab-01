@@ -1,0 +1,45 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# pytest cache and logs
+.pytest_cache/
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.cov
+
+# Selenium-specific files
+*.session
+.screenshots/
+.webdriver/
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Test reports
+report.html
+reports/
+
+# Ignore config files or environment variable files
+.env
+*.env
+
+# Logs
+*.log
+*.txt
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
+screenshots/*.png
